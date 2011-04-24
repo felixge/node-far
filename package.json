@@ -1,0 +1,17 @@
+{
+  "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
+  "name": "far",
+  "description": "Find and run node.js files.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/felixge/node-far",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:felixge/node-far.git"
+  },
+  "main": "./lib/far.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
