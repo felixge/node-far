@@ -14,13 +14,13 @@ tools like `find` and `xargs`.
 
 By default, node-far will execute all `*.js` files in the given directories.
 
-``` bash
+``` shell
 node-far test/
 ```
 
 You can also execute multiple individual files:
 
-``` bash
+``` shell
 node-far test/test-a.js test/test-b.js
 ```
 
@@ -28,12 +28,12 @@ Or you can specify case insensitive regular expressions to be matched against
 against the list of all included files. If no options are given, the default
 filter is `-i \.js$`.
 
-``` bash
+``` shell
 node-far test/ -i "test-.*\.js"
 ```
 And of course you can also exclude files the same way:
 
-``` bash
+``` shell
 node-far test/ -e "common\.js$"
 ```
 
@@ -43,7 +43,7 @@ The amount of output can be controlled via the `-v` flag. Setting it once, will
 list all executed tests on one line, as opposed of re-writing the status to the
 current line.
 
-``` bash
+``` shell
 node-far -v test/
 ```
 
@@ -51,7 +51,7 @@ Setting the verbose flag twice, will show the output from all executed files as
 they are being executed. Otherwise only the output of commands with an exit code
 other than 0 is shown.
 
-``` bash
+``` shell
 node-far -vv test/
 ```
 
