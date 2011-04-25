@@ -1,7 +1,7 @@
 # far
 
-A simple test runner that **f**inds **a**nd **r**uns multiple files, and
-provides useful information about their output and exit codes.
+A simple test runner that **f**inds **a**nd **r**uns multiple files, while
+providing useful information about output and exit codes.
 
 ## Philosophy
 
