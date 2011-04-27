@@ -9,7 +9,9 @@
     "url": "git@github.com:felixge/node-far.git"
   },
   "main": "./lib/far.js",
-  "bin": "./bin/node-far",
+  "bin": {
+    "node-far": "./bin/node-far"
+  },
   "engines": {
     "node": "*"
   },
