@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var far = require('../lib/far').createFromArgv(process.argv);
+far.execute();
