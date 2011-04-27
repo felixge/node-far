@@ -77,9 +77,12 @@ far.exclude(/system/);
 far.execute();
 ```
 
-### Custom Reporting
+## Todo
 
-TBT
+* TAP output
+* Handle Ctrl+C
+* Allow setting node flags
+* Execute non-node files
 
 ## License
 
