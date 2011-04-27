@@ -24,8 +24,8 @@ You can also execute multiple individual files:
 node-far test/test-a.js test/test-b.js
 ```
 
-Or you can specify case insensitive regular expressions to be matched against
-against the list of all included files.
+Or you can specify regular expressions to be matched against against the list
+of all included files.
 
 ``` bash
 node-far test/ -i "test-.*\.js$"
