@@ -26,7 +26,7 @@ node-far test/test-a.js test/test-b.js
 
 Or you can specify case insensitive regular expressions to be matched against
 against the list of all included files. If no options are given, the default
-filter is `-i \.js$`.
+filter is `-i "\.js"$`.
 
 ``` bash
 node-far test/ -i "test-.*\.js"
