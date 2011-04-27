@@ -29,7 +29,7 @@ against the list of all included files. If no options are given, the default
 filter is `-i "\.js"$`.
 
 ``` bash
-node-far test/ -i "test-.*\.js"
+node-far test/ -i "test-.*\.js$"
 ```
 And of course you can also exclude files the same way:
 
