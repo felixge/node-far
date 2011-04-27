@@ -16,7 +16,8 @@
     "node": "*"
   },
   "dependencies": {
-    "tap-producer": "0.0.1"
+    "tap-producer": "0.0.1",
+    "oop": "0.0.3"
   },
   "devDependencies": {}
 }
