@@ -2,7 +2,7 @@
   "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
   "name": "far",
   "description": "Find and run node.js files.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/felixge/node-far",
   "repository": {
     "type": "git",
