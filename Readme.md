@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/felixge/node-far.png)](http://travis-ci.org/felixge/node-far)
 # far
 
 A simple test runner that **f**inds **a**nd **r**uns multiple node.js files,
