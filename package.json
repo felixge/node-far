@@ -4,6 +4,7 @@
   "description": "Find and run node.js files.",
   "version": "0.0.7",
   "homepage": "https://github.com/felixge/node-far",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:felixge/node-far.git"
